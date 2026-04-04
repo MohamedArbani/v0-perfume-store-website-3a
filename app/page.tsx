@@ -123,7 +123,7 @@ export default function Home() {
 
           {/* Desktop Chat Button */}
           <a
-            href={whatsappLink('Hello, I&apos;d like to know more about Dee&apos;s Scents!')}
+            href={whatsappLink("Hello, I'd like to know more about Dee's Scents!")}
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:flex items-center gap-2 bg-primary text-primary-foreground px-4 py-2 rounded-full text-sm font-medium hover:opacity-90 transition"
@@ -155,7 +155,7 @@ export default function Home() {
               </Link>
             ))}
             <a
-              href={whatsappLink('Hello, I&apos;d like to know more about Dee&apos;s Scents!')}
+              href={whatsappLink("Hello, I'd like to know more about Dee's Scents!")}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-4 py-2 rounded-full text-sm font-medium"
@@ -182,7 +182,7 @@ export default function Home() {
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href={whatsappLink('Hello, I&apos;d like to order a fragrance from Dee&apos;s Scents. Can you help me?')}
+                  href={whatsappLink("Hello, I'd like to order a fragrance from Dee's Scents. Can you help me?")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-primary text-primary-foreground px-8 py-3 rounded-full font-medium hover:opacity-90 transition text-center"
@@ -282,7 +282,7 @@ export default function Home() {
 
                   <a
                     href={whatsappLink(
-                      `Hello,\n\nI would like to purchase the following product from Dee&apos;s Scents.\n\nProduct Name: ${product.name}\nPrice: ${product.price}\n\nProduct Image:\n${product.image}\n\nPlease confirm availability and the next steps for ordering.\n\nThank you.`
+                      `Hello,\n\nI would like to purchase the following product from Dee's Scents.\n\nProduct Name: ${product.name}\nPrice: ${product.price}\n\nProduct Image:\n${product.image}\n\nPlease confirm availability and the next steps for ordering.\n\nThank you.`
                     )}
                     target="_blank"
                     rel="noopener noreferrer"
